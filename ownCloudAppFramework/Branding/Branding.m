@@ -27,6 +27,8 @@
 
 @implementation Branding
 
+INCLUDE_IN_CLASS_SETTINGS_SNAPSHOTS(Branding)
+
 + (void)load
 {
 	// Provide hook to allow Swift extensions in the app to register defaults and metadata
@@ -41,7 +43,7 @@
 			// BEGIN: Workaround for iOS 12 Swift crash bug - this code is usually in +initializeBranding in ownCloudAppShared.framework - remove when dropping iOS 12 support
 			[self registerOCClassSettingsDefaults:@{
 				@"url-documentation" 	: @"https://doc.owncloud.com/ios-app/",
-				@"url-help" 	  	: @"https://www.owncloud.com/help",
+				@"url-help" 	  	: @"https://owncloud.com/docs-guides/",
 				@"url-privacy" 	  	: @"https://owncloud.org/privacy-policy/",
 				@"url-terms-of-use" 	: @"https://raw.githubusercontent.com/owncloud/ios-app/master/LICENSE",
 
