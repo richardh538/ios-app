@@ -217,13 +217,13 @@ tag::app[]
 
 |app.is-beta-build
 |bool
-|`true`
+|`false`
 |Controls if the app is built for beta or release purposes.
 |debugOnly
 
 |app.show-beta-warning
 |bool
-|`true`
+|`false`
 |Controls whether a warning should be shown on the first run of a beta version.
 |debugOnly
 
@@ -645,6 +645,12 @@ The following placeholders can be used to make it dynamic:
 |dictionary
 |`map[actions:10 all:0 download:3 download-wifi-and-cellular:3 download-wifi-only:2 transfer:6 upload:3 upload-cellular-and-wifi:3 upload-wifi-only:2]`
 |Concurrency budgets available for sync actions by action category.
+|advanced `candidate`
+
+|core.scan-for-changes-interval
+|int
+|`10`
+|Minimum number of seconds until the next scan for changes, measured from the completion of the previous scan.
 |advanced `candidate`
 
 |connection.allow-background-url-sessions

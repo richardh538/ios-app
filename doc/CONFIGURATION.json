@@ -275,7 +275,7 @@
     "categoryTag" : "app",
     "classIdentifier" : "app",
     "className" : "ownCloudAppShared.VendorServices",
-    "defaultValue" : true,
+    "defaultValue" : false,
     "description" : "Controls if the app is built for beta or release purposes.",
     "flatIdentifier" : "app.is-beta-build",
     "key" : "is-beta-build",
@@ -303,7 +303,7 @@
     "categoryTag" : "app",
     "classIdentifier" : "app",
     "className" : "ownCloudAppShared.VendorServices",
-    "defaultValue" : true,
+    "defaultValue" : false,
     "description" : "Controls whether a warning should be shown on the first run of a beta version.",
     "flatIdentifier" : "app.show-beta-warning",
     "key" : "show-beta-warning",
@@ -1169,6 +1169,20 @@
     "label" : "core.override-reachability-signal",
     "status" : "debugOnly",
     "type" : "bool"
+  },
+  {
+    "autoExpansion" : "none",
+    "category" : "Connection",
+    "categoryTag" : "connection",
+    "classIdentifier" : "core",
+    "className" : "OCCore",
+    "defaultValue" : 10,
+    "description" : "Minimum number of seconds until the next scan for changes, measured from the completion of the previous scan.",
+    "flatIdentifier" : "core.scan-for-changes-interval",
+    "key" : "scan-for-changes-interval",
+    "label" : "core.scan-for-changes-interval",
+    "status" : "advanced",
+    "type" : "int"
   },
   {
     "autoExpansion" : "none",
