@@ -231,6 +231,10 @@
 "Please configure an email account" = "Please configure an email account";
 "You need to configure an email account first to be able to send emails." = "You need to configure an email account first to be able to send emails.";
 "Do you want to open the following URL?" = "Do you want to open the following URL?";
+"Passcode option" = "Passcode option";
+"Please choose how many digits you want to use for the passcode lock?" = "Please choose how many digits you want to use for the passcode lock?";
+"%ld digit code" = "%ld digit code";
+"Enter a new code with %ld digits" = "Enter a new code with %ld digits";
 
 "%@%@ %@ version %@ build %@\n(app: %@, sdk: %@)" = "%@%@ %@ version %@ build %@\n(app: %@, sdk: %@)";
 "beta" = "beta";
@@ -358,6 +362,8 @@
 "Open in a new Window" = "Open in a new Window";
 "Open in Window" = "Open in Window";
 "Take photo or video" = "Take photo or video";
+"%ld Item was copied to the clipboard" = "%ld Item was copied to the clipboard";
+"%ld Items was copied to the clipboard" = "%ld Items was copied to the clipboard";
 
 "Preparing…" = "Preparing…";
 
@@ -653,8 +659,8 @@
 "Select Last Item on Page" = "Select Last Item on Page";
 "Scroll to Top" = "Scroll to Top";
 "Scroll to Bottom" = "Scroll to Bottom";
-"Copy to Pasteboard" = "Copy to Pasteboard";
-"Import from Pasteboard" = "Import from Pasteboard";
+"Copy to Clipboard" = "Copy to Clipboard";
+"Import from Clipboard" = "Import from Clipboard";
 "Next" = "Next";
 "Previous" = "Previous";
 "Favorite" = "Favorite";
